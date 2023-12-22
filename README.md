@@ -1,8 +1,25 @@
-# React + Vite
+# Fitness App Project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Developed a modern Fitness Exercises app using React 18, React Router, and Material-UI, integrated with RapidAPI. Key features include:
 
-Currently, two official plugins are available:
+- **Search & Fetch:** Implemented a search bar to query exercises and fetched data from RapidAPI.
+  
+- **UI Components:**
+  - **Horizontal Scrollbar:** Stylish display of exercises.
+  - **Body Part Component:** Categorized exercises by body parts.
+  - **Exercise Card Component:** Presented exercise details with images.
+  - **Detail Component:** Provided in-depth information about selected exercises.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Exercise Detail View:**
+  - **Exercise Videos:** Integrated videos for each exercise.
+  - **Similar Exercises:** Displayed a list of exercises similar to the selected one.
+
+- **Technologies Used:**
+  - React 18, React Router, Material-UI for a modern and responsive UI.
+  - Leveraged RapidAPI for a comprehensive exercise database.
+
+- **Optimizations & Testing:**
+  - Implemented lazy loading and code splitting for performance.
+  - Conducted testing to ensure functionality and stability.
+
+This project demonstrates proficiency in React development, API integration, and UI design for fitness applications.
