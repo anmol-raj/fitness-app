@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import ExerciseDetail from "./pages/ExerciseDetail";
@@ -13,7 +13,7 @@ const App = () => {
         <Routes>
           <Route path={"/"} element={<Home />} />
           <Route path="/exercise/1" element={<ExerciseDetail />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/fitness-app/*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </Box>
